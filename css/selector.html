@@ -1,0 +1,70 @@
+<!Doctype html>
+<head>
+<title>Selectors</title>
+<style>
+h3:first-child{
+background-color:grey;
+padding:20px;
+color:white;
+text-align:center;
+}
+h3:last-child{
+color:deeppink;  
+}
+ input[type="text"]
+ {
+ background-color:lightGray;
+ color:red;
+margin-bottem:20px;
+ }
+input:focus{
+outline:2px dotted blue;
+}
+input[type="email"]{
+background-color:violet;
+
+}
+button{
+background-color:blue;
+border-radius:10px;
+color:white;
+width:100px;
+margin-left:15px;
+}
+button:focus{
+border:3px groove deeppink;
+}
+button:hover{
+background-color:green;
+}
+
+
+</style>
+</head>
+<body>
+<script>
+function list(){
+document.write("<center><h2 style='color:blue'>Sucessful Registration</h2></center>")
+}
+</script>
+<center>
+<header>
+<h3>Registration form</h3>
+<h3>WELCOME</h3>
+</header>
+<div>
+<tr>
+<td><label>Name</label></td>
+<td><input type="text"></td>
+</tr><br><br>
+<tr>
+<td><label>Email</label></td>
+<td><input type="email"></td>
+</tr><br><br>
+<button onclick=list()>Submit</button>
+</div>
+
+
+</center>
+</body>
+</html>

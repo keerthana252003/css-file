@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: #242124;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  display: block;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  margin-top: 10px;
+
+}
+
+.products {
+  text-align: center;
+  padding: 40px;
+
+}
+
+.box {
+  display: inline-block;
+  border: 2px solid black;
+  width: 183px;
+  margin-left: 15px;
+  height: 390px;
+}
+
+h4 {
+  margin-top: 5px;
+}
+
+.order {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #242124;
+  color: white;
+  display: inline;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.contact {
+  background-color: #242124;
+  color: white;
+  text-align: center;
+  padding: 20PX;
+}
+
+label {
+  display: inline-block;
+  width: 60px;
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 7px;
+}
+
+.submit {
+  background-color: rgb(247, 243, 17);
+  width: 320px;
+  padding: 3px;
+  border-radius: 20px;
+}
+
+.structure {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+
+
+.detail {
+  max-width: 380px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.imgg {
+  width: 380px;
+  height: 330px;
+  border-radius: 10px;
+}
+
+.quantity {
+  display: inline;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  margin-left: 10px;
+  padding: 4px;
+  width: 28px;
+}
+
+p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+
+.span2 {
+  font-weight: bold;
+  color: red;
+}
+
+.span1 {
+  text-decoration: line-through;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: darkred;
+}

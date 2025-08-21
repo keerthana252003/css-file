@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ec771e;
+    padding: 1rem 1rem;
+    color: #fff;
+}
+.bar {
+    width:25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height:3.125rem;
+    border-radius: 3.125rem;
+}
+
+.bar input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3.125rem;
+    outline: none;
+}
+
+.btn {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    width:3rem;
+    height:3rem;
+}
+.three a{
+color:white;
+text-decoration:none;
+margin-left:1.25rem;
+font-size:1.0625rem;
+font-weight:600;
+}
+.pro {
+    display: flex;
+    justify-content:space-around;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.product {
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: #fafafa;
+    margin-top:5rem;
+
+}
+h2{
+text-align:center;
+font-size:1.875rem;
+margin-top:1.25rem;
+}
+.price{
+color:#00b33c;
+font-weight:700;
+margin-top:0.4375rem;
+font-size:1rem;
+}
+.off{
+margin-top:0.4375rem;
+}
+
+.off span{
+text-decoration:line-through;
+font-size:0.875rem;
+color:#5c8a8a
+}
+
+.keerthi{
+  
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-bottom:9.375rem;
+}
+
+.login-box {
+    background-color: white;
+    padding: 1.875rem;
+    
+    width:21.875rem;
+    border-radius: 0.5rem;
+}
+
+.head{
+ text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+margin-bottom: 1rem;
+}
+
+.para{
+text-align: center;
+    font-size: 0.875rem;
+    color: #555;
+    margin-bottom: 1.25rem;
+}
+
+.input-box {
+    margin-bottom: 1rem;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3125rem;
+}
+.toggle {
+    position: absolute;
+    right: 0.625rem;
+    top: 0.75rem;
+    cursor: pointer;
+}
+
+.forgot {
+    text-align: right;
+    margin-bottom: 0.625rem;
+}
+
+.forgot a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 0.875rem;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
+
+.btn-container {
+    margin-bottom: 0.9375rem;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #FF5722;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+}
+
+.privacy {
+    font-size: 0.75rem;
+    text-align: center;
+    color: #888;
+    margin-top: 0.9375rem;
+}
+
+.privacy a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.privacy a:hover {
+    text-decoration: underline;
+}
+

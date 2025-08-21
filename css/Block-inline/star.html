@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <title> Reestar </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<script>
+  function view() {
+    window.location.href ="view.html"; 
+  }
+
+  function view1() {
+    window.location.href ="view1.html"; 
+  }
+
+
+  function view2() {
+    window.location.href ="view2.html"; 
+  }
+
+  function view3() {
+    window.location.href ="view3.html"; 
+  }
+
+
+</script>
+
+    <div class="header">
+        <h1>Fivestar</h1>
+        <ul>
+            <li>Home |</li>
+            <li>Details |</li>
+            <li>Contact |</li>
+        </ul>
+    </div>
+    <div class="products">
+        <div class="box">            <img src="pic1.jpg">
+            <h4>Chikken 65</h4>
+            <p class="order">Something Which is very delicious</p>
+            <button onclick="view()">View details</button>
+        </div>
+        <div class="box">
+            <img src="pic2.jpg">
+            <h4>Tandoori Chikken</h4>
+            <p class="order">Something Which is very delicious</p>
+            <button onclick="view1()">View details</button>
+        </div>
+
+        <div class="box">
+            <img src="pic4.jpg" width="183px">
+            <h4>Athentic chikken</h4>
+            <p class="order">Something Which is very delicious</p>
+            <button onclick="view2()">View details</button>
+        </div>
+        <div class="box">
+            <img src="pic3.jpg" width="183px">
+            <h4>Chikken Tikka</h4>
+            <p class="order">Something Which is very delicious</p>
+            <button onclick="view3()">View details</button>
+        </div>
+
+    </div>
+    <div class="contact">
+        <h1 style="margin-bottom: 10px;">Contact Us</h1>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Name">
+        </div>
+       
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="email">
+        </div>
+        <div>
+            <input type="submit" value="Send" class="submit">
+        </div>
+    </div>
+</body>
+
+</html>
